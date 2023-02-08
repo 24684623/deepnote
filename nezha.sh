@@ -5,7 +5,7 @@ SECRET="FGn2wPZI3R1CxMSAyr" #SECRET
 TLS="" # 是否启用 tls 是 "--tls" 否留空
 NZ_BASE_PATH="/opt/nezha"
 NZ_AGENT_PATH="${NZ_BASE_PATH}/agent"
-pidfile="/run/${RC_SVCNAME}.pid"
+
 command="/opt/nezha/agent/nezha-agent"
 command_args="-s ${SERVER}  -p ${SECRET} ${TLS}"
 command_background=true
